@@ -51,10 +51,11 @@ utilizaremos para nuestro proyecto las siguientes dependencias de SpringBoot.
 | :-------- | :------- | :-------------------------------- |
 | `token api` | `string` | **Required**. apiToken |
 | `titulo`      | `string` | **Required**  |
-| `idioma`      | `string` | **Required**  |
-| `autor`      | `json` | **Required**  |
-| `nombre`      | `string` | **Required**  |
-| `nacionalidad`      | `string` | **Required**  |
+| `mensaje`      | `string` | **Required**  |
+| `fechaCreado`      | `string` | **Required**  |
+| `autor`      | `string` | **Required**  |
+| `curso`      | `string` | **Required**  |
+| `respuesta`      | `string` | **NotRequired**  |
 
 #### Actualizar un topico
 
@@ -67,10 +68,11 @@ utilizaremos para nuestro proyecto las siguientes dependencias de SpringBoot.
 | :-------- | :------- | :-------------------------------- |
 | `token api` | `string` | **Required**. apiToken |
 | `titulo`      | `string` | **NotRequired**  |
-| `idioma`      | `string` | **NotRequired**  |
-| `autor`      | `json` | **NotRequired**  |
-| `nombre`      | `string` | **NotRequired**  |
-| `nacionalidad`      | `string` | **NotRequired**  |
+| `mensaje`      | `string` | **NotRequired**  |
+| `fechaCreado`      | `string` | **NotRequired**  |
+| `autor`      | `string` | **NotRequired**  |
+| `curso`      | `string` | **NotRequired**  |
+| `respuesta`      | `string` | **NotRequired**  |
 
 #### Eliminar un topico
 
